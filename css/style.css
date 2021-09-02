@@ -1,0 +1,597 @@
+*{
+	margin: 0px;
+	padding: 0px;
+    box-sizing: border-box;
+	font-family: arial;
+
+}
+body{
+	background: #151414;
+}
+
+.header{
+	height:120vh; 
+	width:100%;
+	background-image: url('../img/bg1.jpg');
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.header .navbar{
+	height: 18vh;
+	width: 100%;
+	background-attachment: fixed;
+	
+
+	}
+.header .navbar ul{
+	text-align: center;
+	margin-top:8vh;
+	margin-left:30vw;
+	float: left;
+	
+}	
+.header .navbar li{
+	text-decoration: none; 
+	display: inline-block;
+	padding: 5px 5px;
+	margin-right: 3vw;	  
+}
+
+.header .navbar a{
+	text-decoration:none;
+	color: white;
+	font-weight:200;
+
+}
+
+.header h1{
+	text-align:center;
+	font-weight:100;
+	font-size: 6vw;
+	margin-top: 36vh;
+	color: white; 
+}
+.header strong{
+	font-weight: 800;
+}
+.header p{
+	text-align: center;
+	letter-spacing:3.2px; 
+	font-size: 16px;
+	color: white;
+	font-weight: 400;
+	line-height:27.2px;
+	margin-top: 5vh;
+}
+.portflio_text{
+	width: 100%;
+	height: 43vh;
+	float: left;
+	background: #151414;
+}
+.portflio_text h2{
+	text-align: center;
+	color: white;
+	font-weight:200;
+	font-size:2.5vw;
+	margin-top:14vh;  
+}
+.portflio_text strong{
+	font-weight: 800;
+	font-size: 30px;
+}
+
+.portflio_text ul{
+	text-align: center;
+	margin-top: 8vh;
+
+}
+.portflio_text li{
+	display: inline-block;
+	padding-right:3vw;  
+
+}
+.portflio_text a{
+	text-decoration:none;
+	color: white;
+	font-size: 16px;
+	font-weight: 300; 
+}
+.portflio_text .active{
+	color:#b5e550;
+}
+.portflio_text a:hover{
+	color:#b5e550;
+}
+.image-gallery{
+	width: 100%;
+	height: 150vh;
+	float: left;
+	
+}
+.row{
+	width:82vw;
+	height: 68vh;
+	margin: auto;
+    margin-bottom: 3vh;
+
+}
+.image-gallery .row .card{
+	height: 68vh;
+	width: 26vw;
+	margin-right:2vw;
+	float: left; 
+}
+.image-gallery .row .card:last-child{
+	margin-right: 0px;
+}
+.image-gallery .row .card img{
+	height:49vh;
+	width: 100%;
+}
+.image-gallery .row .card .container{
+	text-align: center;
+	color: white;
+	margin-top: 3vh;
+	font-size:1.3vw;
+
+
+}
+.image-gallery .row .card p{
+	margin-top: 2vh;
+	font-size: 1vw;
+
+}
+.resume{
+	
+	height:20vh;
+	width: 100%;
+	float: left;
+	text-align: center;
+	font-weight: 200;
+	font-size: 30px;
+	color: white;
+}
+.resume strong{
+	font-weight: 800;
+
+}
+.eduex{
+	width: 100%;
+	height: 170vh;
+	float: left;
+}
+.education{
+	width:40vw; 
+	height:160vh;
+	
+	margin-left:7.8vw; 
+	float: left;
+}
+.experience{
+	width:40vw; 
+	height:160vh;
+	
+	margin-right: 7.8vw;
+	float: right;
+}
+h2{
+	color: white;
+	font-size:20px;
+	margin-bottom:6vh;
+	font-weight:200;
+	background: ; 
+
+}
+.eduex .row{
+	width: 100%;
+	height: 36vh;
+	background:#202020;
+	float: left;
+	margin-bottom: 4vh;
+	color: white;
+	border-radius: 2vh;
+	
+}
+.eduex .row .text{
+	padding:3vh 3vw; 
+}
+.eduex .row .text h3{
+	color:#b5e550;
+	margin-top:2vh;
+	margin-bottom:2vh; 
+	font-weight:100;
+	font-size:1.5vw;   
+}
+.eduex .row .text span{
+	line-height: 4vh;
+	font-weight:100;
+	font-size:1.2vw;  
+}
+.about{
+	width: 100%;
+	height:90vh;
+	float: left;
+	margin-top:30vh;
+	 
+	
+}
+.about img{
+	height:64vh ;
+	width: 30vw;
+	float: left;
+	margin-top:8vh;
+	margin-left: 8vw;
+	margin-right:8vw; 
+}
+.aboutme{
+	width: 40vw;
+	height: 64vh;
+	float: left;
+	margin-top:3vh;
+	color: white; 
+}
+.aboutme h2{
+	color: white;
+	font-weight:100;
+	font-size:3vw; 
+}
+.aboutme strong{
+	font-weight: 800;
+}
+.aboutme p{
+	line-height:4vh;
+	font-weight: 100;
+	font-size: 1.3vw;
+
+}
+.aboutme .btn{
+	margin-top:3.2vw; 
+}
+.aboutme button{
+	text-decoration:none;
+	background: #b5e550;
+	border: 1px solid transparent;
+	outline: none;  
+	padding:2vh;
+	border-radius:2vw; 
+
+}
+.aboutme a{
+	text-decoration: none;
+	color: white;
+	font-size:.8vw; 
+}
+.Testimonial{
+	width:100%;
+	height: 120vh;
+	margin-top:10vh; 
+	float: left; 
+
+}
+.Testimonial h2{
+	text-align: center;
+	font-size: 2.5vw;
+	margin-top:6vh;
+	margin-bottom:13vh; 
+
+}
+.Testimonial .client{
+	width: 40vw;
+	height:90vh;
+	float: left;
+	margin-left:7vw;
+	 
+}
+
+.Testimonial .client img{
+	height:10vh; 
+	width:5vw;
+	float: left;
+	border-radius: 60%;
+	margin-right:1.5vw;
+}
+.Testimonial .client .quote{
+	height: 38vh;
+	width: 33vw;
+	float: left;
+	margin-bottom: 10vh;
+	background:#202020;
+	border-radius: 4vh;
+}
+.Testimonial .client:last child{
+	margin-bottom: 0px;
+}
+
+.client .quote p{
+	padding:4vh 2vw;
+	color: white;
+	font-size: 1vw;
+	line-height:4.3vh;
+
+}
+.client .quote a{
+	text-decoration:none;
+	color:#b5e550;  
+}
+.myservice{
+	width: 100%;
+	height: 130vh;
+	float: left;
+	color: white;
+}
+.myservice .service{
+	height:78vh;
+	width: 84vw;
+	float: left;
+	margin-left: 8vw; 
+}
+.myservice .service:last child{
+	margin-right: 0px;
+}
+  h2{
+	text-align: center;
+	font-size:30px;
+	margin-top:13.5vh;
+	margin-bottom:10vh;
+	font-weight: 300; 
+
+}
+.myservice .service .servicelist{
+	height:82vh ;
+	width: 26vw;
+	margin-right:2vw;
+	float: left; 
+	background:#202020; 
+}
+.myservice .service .servicelist .image{
+	background:#b5e550;
+	display: block;
+	height: 20vh;
+	width:10vw;
+	margin:8vh 8vw;
+	border-radius:50%;
+	 
+}
+.myservice .service .servicelist img{
+	height:7vh;
+	width:3.5vw;
+	margin:6.5vh 3vw;   
+}
+.myservice .service h3{
+	text-align: center;
+	font-weight: 200;
+	font-size:1.5vw;
+	margin-bottom: 2vh; 
+
+}
+.myservice .service p{
+	font-weight: 100;
+	font-size: 1vw;
+	text-align: center;
+	line-height:4vh; 
+	padding-left:1vw;
+	padding-right: 1vw; 
+
+}
+.myservice .service a{
+	text-decoration:none;
+	color:#b5e550;
+
+}
+.myservice .service a:hover{
+	text-decoration:underline;
+}
+
+.blog{
+	width: 100%;
+	height: 135vh;
+	float: left;
+	color: white;
+}
+
+.blog .row1{
+	width: 84vw;
+	height: 120vh;
+	background: ;
+	margin-left: 8vw;
+
+}
+
+
+.blog .row1 .card1{
+    height:86vh ;
+	width: 26vw;
+	margin-right:2vw;
+	float: left; 
+	background:#202020;
+	 
+}
+.blog .row1:last child{
+	margin-right: 0px;
+}
+
+.blog .row1 .card1 img{
+	height: 42vh;
+	width: 26vw;
+	float: left;
+}
+
+.blog .row1 .card1 .continer{
+	text-align: center;
+	color: white;
+	margin-top: 3vh;
+	
+	
+}
+.blog .row1 .card1 .continer h4{
+	margin-top:3vh;
+	margin-bottom:4vh; 
+	display: inline-block;
+	font-size:1.5vw;
+	font-weight: 200;
+	 
+}
+.blog .row1 .card1 .continer p{
+   line-height:27px;
+   font-size:14px;
+   font-weight: 200; 
+}
+.blog .row1 .card1 .continer span{
+	color: white;
+}
+.continer a{
+	text-decoration: none;
+	color: white;
+}
+.continer a:hover{
+	color:#b5e550; 
+}
+.blog .row1 .card1:hover{
+	transform: scale(1.1);
+	transition: 1s;
+	box-shadow:0px 0px 10px black;
+}
+
+.getintouch{
+	width: 100%;
+	height: 140vh;
+	float: left;
+	color: white;
+}
+.getintouch .row{
+	
+	width: 84vw;
+	height: 120vh;
+	margin-left: 8vw;
+
+}
+.getintouch .row .contactForm{
+	width: 55%;
+	height: 120vh;
+	
+	float: left;
+	
+}
+.getintouch .row .addressbar{
+	width:40%;
+	height: 120vh;
+	
+	float: right;
+}
+.getintouch .row h3{
+	color: white;
+	font-size: 30px;
+	font-weight:100;
+}
+.getintouch .form{
+
+	margin-top: 5vh;
+}
+.form input{
+	width: 100%;
+	height:8vh;
+	margin-bottom:2vh;
+	border-radius:1vh;
+	outline: none;
+	background:#202020;
+	color: white;
+	font-size: 14px;
+	padding-left:1vw;
+	outline: none;
+	border:none;      
+}
+
+textarea {
+  width: 100%;
+  height:40vh;
+  border-radius:1vh;
+  outline: none;
+  background:#202020;
+  color: white;
+  font-size: 14px;
+  padding:1vw;
+  border:none; 
+  resize:vertical;
+}
+  input:focus {
+  background-color: #3C3B3B;
+}
+textarea:focus {
+  background-color: #3C3B3B;
+}
+.form button{
+	height: 7vh;
+	width:12vw;
+	color: white;
+	outline: none;
+	border: none;
+	background:#b5e550;
+	border-radius:2vw;
+	padding: 1vw;
+	margin-top: 5vh;   
+}
+a{
+	text-decoration:none;
+	color: white;
+
+
+}
+.address{
+	margin-top: 5vh;
+}
+.address h6{
+	color: dodgerblue;
+	font-size:18px;
+	padding-bottom:1vh;
+	font-weight: 200; 
+
+}
+.address p{
+	color: grey;
+	font-size: 16px;
+	padding-bottom:2vh;
+	font-weight: 100; 
+
+}
+.footer{
+	width: 100%;
+	height:40vh;
+	float: left;
+	color: white;
+	
+}
+.footer .icon{
+	width:40vw;
+	height: 20vh;
+	margin-top: 5vh;
+	margin-left:35vw;
+	
+
+}
+.footer .icon span{
+	background: #202020;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 100px;
+    vertical-align: middle;
+    padding: 30px;
+    font-size: 16px;
+    color:#b5e550;
+    margin-right:2vw;  
+	 
+}
+.footer  i:hover{
+	color: #adf802;
+	transform: scale(1.5);
+	transition: 1s;
+}
+
+
+
+
+
+
